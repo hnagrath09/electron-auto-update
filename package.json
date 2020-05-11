@@ -1,0 +1,22 @@
+{
+  "name": "electron-auto-update",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hnagrath09/electron-auto-update.git"
+  },
+  "devDependencies": {
+    "electron": "^8.2.5",
+    "electron-builder": "^22.6.0"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.1"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --mac --win --publish always"
+  }
+}
