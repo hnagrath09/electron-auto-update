@@ -8,7 +8,7 @@
     "url": "https://github.com/hnagrath09/electron-auto-update.git"
   },
   "devDependencies": {
-    "electron": "^8.2.5",
+    "electron": "^9.4.0",
     "electron-builder": "^22.6.0"
   },
   "dependencies": {
